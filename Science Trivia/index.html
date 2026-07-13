@@ -1,1 +1,128 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Science Trivia</title>
+  <style>
+    :root { color-scheme: dark; }
 
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: #111;
+      color: #f5f5f5;
+      line-height: 1.6;
+    }
+
+    .page {
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    .topnav {
+      margin-bottom: 18px;
+    }
+
+    .topnav a {
+      color: #8fd3ff;
+      text-decoration: none;
+    }
+
+    .title {
+      font-size: 2rem;
+      margin: 0 0 8px;
+    }
+
+    .description {
+      margin: 0 0 22px;
+      color: #cfcfcf;
+    }
+
+    .section {
+      background: #1a1a1a;
+      border: 1px solid #2b2b2b;
+      border-radius: 14px;
+      padding: 16px;
+      margin-bottom: 16px;
+    }
+
+    .section h2 {
+      margin: 0 0 8px;
+      font-size: 1.2rem;
+    }
+
+    .section p {
+      margin: 0 0 12px;
+      color: #d0d0d0;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 12px;
+    }
+
+    .card {
+      display: block;
+      text-decoration: none;
+      color: inherit;
+      background: #111;
+      border: 1px solid #333;
+      border-radius: 12px;
+      padding: 14px;
+      transition: transform 0.15s ease, border-color 0.15s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-2px);
+      border-color: #5a5a5a;
+    }
+
+    .card h3 {
+      margin: 0 0 6px;
+      font-size: 1.05rem;
+    }
+
+    .card span {
+      color: #bdbdbd;
+      font-size: 0.95rem;
+    }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <nav class="topnav">
+      <a href="../index.html">← Back to Fun Circle</a>
+    </nav>
+
+    <h1 class="title">Science Tirivia</h1>
+    <p class="description">
+      Science learning and review pages.
+    </p>
+
+    <section class="section">
+      <h2>Science Trivia Resume</h2>
+      <p>Science summary and review page.</p>
+      <div class="grid">
+        <a class="card" href="./Science%20Trivia%20Resume/">
+          <h3>Open Science Trivia Resume</h3>
+          <span>Go to the science summary page.</span>
+        </a>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Other</h2>
+      <p>Additional science pages can be added later.</p>
+      <div class="grid">
+        <a class="card" href="./Other/">
+          <h3>Open Other</h3>
+          <span>Place future science pages here.</span>
+        </a>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
