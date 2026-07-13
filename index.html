@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Fun Circle</title>
+  <style>
+    :root { color-scheme: dark; }
+
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: #111;
+      color: #f5f5f5;
+      line-height: 1.6;
+    }
+
+    .page {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    .title {
+      font-size: 2.3rem;
+      margin: 0 0 8px;
+    }
+
+    .lead {
+      margin: 0 0 24px;
+      color: #cfcfcf;
+    }
+
+    .section {
+      background: #1a1a1a;
+      border: 1px solid #2b2b2b;
+      border-radius: 14px;
+      padding: 18px;
+      margin-bottom: 18px;
+    }
+
+    .section h2 {
+      margin: 0 0 8px;
+      font-size: 1.4rem;
+    }
+
+    .section p {
+      margin: 0 0 14px;
+      color: #cfcfcf;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 12px;
+    }
+
+    .card {
+      display: block;
+      text-decoration: none;
+      color: inherit;
+      background: #111;
+      border: 1px solid #333;
+      border-radius: 12px;
+      padding: 14px;
+      transition: transform 0.15s ease, border-color 0.15s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-2px);
+      border-color: #5a5a5a;
+    }
+
+    .card h3 {
+      margin: 0 0 6px;
+      font-size: 1.1rem;
+    }
+
+    .card span {
+      color: #bdbdbd;
+      font-size: 0.95rem;
+    }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <h1 class="title">Fun Circle</h1>
+    <p class="lead">
+      A collection of fun clips, puzzles, learning activities, and science pages.
+    </p>
+
+    <section class="section">
+      <h2>Clip</h2>
+      <p>Short videos and visual clips.</p>
+      <div class="grid">
+        <a class="card" href="./Clip/">
+          <h3>Open Clip</h3>
+          <span>Go to the Clip section.</span>
+        </a>
+        <a class="card" href="./Clip/Compass/">
+          <h3>Compass</h3>
+          <span>Video collection with short descriptions.</span>
+        </a>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Puzzle Me</h2>
+      <p>Puzzle and game pages.</p>
+      <div class="grid">
+        <a class="card" href="./Puzzle%20Me/">
+          <h3>Open Puzzle Me</h3>
+          <span>Go to the Puzzle Me section.</span>
+        </a>
+        <a class="card" href="./Puzzle%20Me/3Dpuzzle/">
+          <h3>3Dpuzzle</h3>
+          <span>3D puzzle page.</span>
+        </a>
+        <a class="card" href="./Puzzle%20Me/anime-game/">
+          <h3>anime-game</h3>
+          <span>Anime-related game page.</span>
+        </a>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Kids' Fun</h2>
+      <p>Simple and playful learning pages for children.</p>
+      <div class="grid">
+        <a class="card" href="./Kids%27%20Fun/">
+          <h3>Open Kids' Fun</h3>
+          <span>Go to the Kids' Fun section.</span>
+        </a>
+        <a class="card" href="./Kids%27%20Fun/Kids%27%20Math%20Puzzle/">
+          <h3>Kids' Math Puzzle</h3>
+          <span>Math practice with fun elements.</span>
+        </a>
+        <a class="card" href="./Kids%27%20Fun/Tap%20Click%20English/">
+          <h3>Tap Click English</h3>
+          <span>English practice activity.</span>
+        </a>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Science Tirivia</h2>
+      <p>Science learning and review pages.</p>
+      <div class="grid">
+        <a class="card" href="./Science%20Tirivia/">
+          <h3>Open Science Tirivia</h3>
+          <span>Go to the Science section.</span>
+        </a>
+        <a class="card" href="./Science%20Tirivia/Science%20Trivia%20Resume/">
+          <h3>Science Trivia Resume</h3>
+          <span>Science summary page.</span>
+        </a>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
